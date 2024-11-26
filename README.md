@@ -37,5 +37,5 @@ To run this program, you need the following:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/your-username/your-repo.git](https://github.com/Iconoclast42/amp_load-data.git)
    cd your-repo
