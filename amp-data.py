@@ -95,7 +95,7 @@ def main():
             resp = requests.get(
                 'https://platform.amperon.co/export/iso/pjm/short-term/net-demand',
                 params=params,
-                auth=requests.auth.HTTPBasicAuth('UDePfCeIlA2lYJYR87V7jU7IoxbW0HyC', 'wn1V4TtuR0FjQsdaWi719D7erNpg8di0mBh4F24J2muvWv4lU7OxJ9TNrzgPkxnr'),
+                auth=requests.auth.HTTPBasicAuth('ID', 'secret'),
             )
 
             if resp.status_code == 200:
